@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professioneel CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f5f5f5; /* smoke white */
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        .cv-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+        }
+        .cv-sidebar {
+            background: linear-gradient(135deg, #b71c1c 0%, #d32f2f 100%); /* stijlvol rood gradient */
+            color: #fff;
+            width: 280px;
+            padding: 40px 30px;
+        }
+        .cv-sidebar h2 {
+            margin-top: 0;
+            font-size: 2em;
+            letter-spacing: 1px;
+        }
+        .cv-sidebar p, .cv-sidebar ul {
+            font-size: 1em;
+            margin-bottom: 18px;
+        }
+        .cv-sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .cv-sidebar ul li {
+            margin-bottom: 8px;
+        }
+        .cv-main {
+            flex: 1;
+            padding: 40px 50px;
+            background: #f5f5f5;
+        }
+        .cv-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(183,28,28,0.08); /* rood schaduw */
+            padding: 28px 32px 20px 32px;
+            margin-bottom: 28px;
+            transition: box-shadow 0.2s;
+        }
+        .cv-card:hover {
+            box-shadow: 0 6px 24px rgba(183,28,28,0.16); /* rood schaduw */
+        }
+        .cv-main h1 {
+            margin-top: 0;
+            font-size: 2.5em;
+            color: #b71c1c; /* stijlvol rood */
+        }
+        .cv-main h3 {
+            margin-bottom: 6px;
+            color: #b71c1c; /* stijlvol rood */
+        }
+        .cv-section {
+            margin-bottom: 0;
+        }
+        .cv-job {
+            margin-bottom: 18px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 1px 6px rgba(183,28,28,0.06);
+            padding: 18px 20px 12px 20px;
+            transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .cv-job:hover {
+            box-shadow: 0 6px 24px rgba(183,28,28,0.18);
+            transform: translateY(-2px) scale(1.01);
+            cursor: pointer;
+        }
+        .cv-job-title {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .cv-job-company {
+            color: #b71c1c; /* stijlvol rood */
+            font-size: 1em;
+        }
+        .cv-job-period {
+            font-size: 0.95em;
+            color: #888;
+        }
+        .cv-education {
+            margin-bottom: 18px;
+        }
+        .cv-education-title {
+            font-weight: bold;
+        }
+        .cv-education-school {
+            color: #b71c1c; /* stijlvol rood */
+        }
+        @media (max-width: 700px) {
+            .cv-container {
+                flex-direction: column;
+            }
+            .cv-sidebar, .cv-main {
+                width: 100%;
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <aside class="cv-sidebar">
+            <h2>Gertjan Debusschere</h2>
+            <p></p>
+            <p><strong>Functie:</strong> Medewerker backoffice </p>
+            <p><strong>Email:</strong> gertjan.debusschere@gmail.com</p>
+            <p><br>
+            <strong>Telefoon:</strong> +32 485 59 99 45</p>
+            <h3>Vaardigheden</h3>
+            <ul>
+                <li>Arbeidsrecht, sociaalzekerheidsrecht, fiscaal recht</li>
+                <li>Microsoft Office, Microsoft Windows- en Linux System Management, .NET (WPF+Blazor)</li>
+                <li>Uitgebreide ervaring met Microsoft Sharepoint en Microsoft Lists</li>
+                <li>Oracle Business Intelligence en SQL</li>
+            </ul>
+            <h3>Talen</h3>
+            <ul>
+                <li>Nederlands (moedertaal)</li>
+                <li>Engels (vloeiend)</li>
+                <li>Frans (vloeiend)</li>
+                <li>Duits (basis)</li>
+                <li>Spaans (noties)</li>
+            </ul>
+        </aside>
+        <main class="cv-main">
+            <h1>Curriculum vitae</h1>
+            <div class="cv-card cv-section">
+                <h3>Profiel</h3>
+                <p>Enthousiaste en resultaatgerichte admistratieve duizendpoot die van zeer veel markten thuis is. Van juridische analyse tot functionele analyse. Van wegcode tot C# code. Van draaitabellen tot rapportering vanuit het datawarehouse. Altijd benieuwd bij te leren, en me om en bij te scholen.</p>
+            </div>
+            <br>
+            <div class="cv-card cv-section">
+                <h3>Werkervaring</h3>
+                <div class="cv-job">
+                    <div class="cv-job-title">Epic Owner</div>
+                    <div class="cv-job-company">Rijksinstituut voor de Sociale Verzerkingen der Zelfstandigen</div>
+                    <div class="cv-job-period">2024 - heden</div>
+                    <ul>
+                        <li>Belangrijkste liason naar de business en coördinator voor het ontwikkelingstraject voor de applicatie van de dienst Publieke Mandaten.</li>
+                        <li>Ondanks zeer moeilijk traject - diverse wijziging in architectuurkeuze en het vertrek van de business analist - zal het project op de voorziene datum in productie gaan met een minimum aan ongemak voor de eindgebruiker.</li>
+                    </ul>
+                </div>
+                <div class="cv-job">
+                    <div class="cv-job-title">Coördinator secretariaat CTX</div>
+                    <div class="cv-job-company">Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen</div>
+                    <div class="cv-job-period">2019 - heden</div>
+                    <ul>
+                        <li>Zorgen voor de dispatching en initiële verwerking van poststukken voor de cel Gerrechtelijke Geschillen van de directie Verplichtingen.Dit gaat van het klasseren van documenten in het dossier over het opmaken van betalingsopdrachten tot het samenvatten van rechtspraak met toevoeging van een eerste analyse en suggestie voor verder actie.</li>
+                        <li>Werkte een volledig opvolgingssysteem uit voor de geautomatiseerde herninneringsmails in Microsoft Lists en idem kwartaalstatistieken met PowerBI.</li>
+                    </ul>
+                </div>
+                <div class="cv-job">
+                    <div class="cv-job-title">Medewerker backoffice Publieke Mandaten</div>
+                    <div class="cv-job-company">Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen</div>
+                    <div class="cv-job-period">2018 - heden</div>
+                    <ul>
+                        <li>"Mister PMP".</li>
+                        <li>SPOC voor technische problemen, verzoeken voor statistische rapporten binnen het domein, opleidingen, ingewikkelde juridische knopen die moeten worden ontward.</li>
+                    </ul>
+            </div>
+            <br>
+            <div class="cv-card cv-section">
+                <h3>Opleiding</h3>
+                <div class="cv-education">
+                    <div class="cv-education-title">BSc Informatica</div>
+                    <div class="cv-education-school">Technische Universiteit Delft</div>
+                    <div class="cv-job-period">2014 - 2018</div>
+                </div>
+            </div>
+            <div class="cv-card cv-section">
+                <h3>Certificaten</h3>
+                <ul>
+                    <li>Brandweerman, brandweerkorporaal, onderofficier.                   
+                    </li>
+                    <li>Microsoft Certified: Azure Developer Associate</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

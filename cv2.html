@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f8f9fa; /* gebroken wit */
+            color: #1a237e;
+            margin: 0;
+            padding: 0;
+        }
+        .cv-header {
+            background: #1a237e;
+            color: #fff;
+            padding: 36px 0 24px 0;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .cv-header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            font-weight: 700;
+        }
+        .cv-container {
+            max-width: 900px;
+            margin: 32px auto;
+            padding: 0 16px;
+        }
+        .cv-link {
+            color: #1a237e;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        .cv-link:hover {
+            color: #3949ab;
+        }
+        .cv-card {
+            background: #fffdfa; /* gebroken wit */
+            border-left: 6px solid #1a237e;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(26,35,126,0.07);
+            margin-bottom: 28px;
+            padding: 28px 32px 20px 32px;
+            transition: box-shadow 0.2s;
+            position: relative;
+        }
+        .cv-card h2 {
+            margin-top: 0;
+            color: #1a237e;
+            font-size: 1.5em;
+            margin-bottom: 12px;
+        }
+        .cv-card .cv-link {
+            position: absolute;
+            top: 28px;
+            right: 32px;
+            font-size: 1em;
+        }
+        .cv-section-content {
+            color: #222;
+        }
+        @media (max-width: 700px) {
+            .cv-container {
+                padding: 0 4px;
+            }
+            .cv-card {
+                padding: 18px 10px 14px 10px;
+            }
+            .cv-card .cv-link {
+                right: 10px;
+                top: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-header">
+        <h1 id="cv-title">Curriculum Vitae</h1>
+    </div>
+    <div class="cv-container">
+        <div class="cv-card">
+            <h2>Profiel <a class="cv-link" href="#cv-title" title="Terug naar boven">↩</a></h2>
+            <div class="cv-section-content">
+                <p>Resultaatgerichte professional met passie voor technologie en innovatie. Sterk in samenwerking en communicatie.</p>
+            </div>
+        </div>
+        <div class="cv-card">
+            <h2>Werkervaring <a class="cv-link" href="#cv-title" title="Terug naar boven">↩</a></h2>
+            <div class="cv-section-content">
+                <strong>Senior Developer</strong> – Blauw IT BV (2021 - heden)<br>
+                <ul>
+                    <li>Leidde projecten voor grote klanten in de zorg en overheid.</li>
+                    <li>Implementatie van moderne webapplicaties in teamverband.</li>
+                </ul>
+                <strong>Developer</strong> – Web Solutions (2017 - 2021)<br>
+                <ul>
+                    <li>Ontwikkeling en onderhoud van klantportalen.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="cv-card">
+            <h2>Opleiding <a class="cv-link" href="#cv-title" title="Terug naar boven">↩</a></h2>
+            <div class="cv-section-content">
+                <strong>BSc Informatica</strong> – Universiteit Utrecht (2013 - 2017)
+            </div>
+        </div>
+        <div class="cv-card">
+            <h2>Vaardigheden <a class="cv-link" href="#cv-title" title="Terug naar boven">↩</a></h2>
+            <div class="cv-section-content">
+                <ul>
+                    <li>HTML, CSS, JavaScript, TypeScript</li>
+                    <li>React, Angular, Node.js</li>
+                    <li>Scrum, Agile werken</li>
+                </ul>
+            </div>
+        </div>
+        <div class="cv-card">
+            <h2>Talen <a class="cv-link" href="#cv-title" title="Terug naar boven">↩</a></h2>
+            <div class="cv-section-content">
+                Nederlands (moedertaal), Engels (vloeiend)
+            </div>
+        </div>
+    </div>
+</body>
+</html>
