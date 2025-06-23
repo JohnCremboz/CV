@@ -43,6 +43,13 @@
         .cv-sidebar ul li {
             margin-bottom: 8px;
         }
+        .cv-sidebar ul li:hover {
+            background: #fff3e0;
+            color: #b71c1c;
+            border-radius: 5px;
+            padding-left: 8px;
+            transition: background 0.2s, color 0.2s, padding-left 0.2s;
+        }
         .cv-main {
             flex: 1;
             padding: 40px 50px;
@@ -114,6 +121,30 @@
                 padding: 24px;
             }
         }
+        .cv-employer-header {
+            font-weight: bold;
+            font-size: 1.15em;
+            background: #eee;
+            color: #b71c1c;
+            padding: 10px 18px;
+            border-radius: 8px;
+            margin-bottom: 6px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: background 0.2s;
+        }
+        .cv-employer-header:hover {
+            background: #f8d7da;
+        }
+        .cv-toggle-arrow {
+            font-size: 1.1em;
+            margin-left: 8px;
+        }
+        .cv-employer-jobs {
+            margin-bottom: 18px;
+        }
     </style>
 </head>
 <body>
@@ -123,7 +154,8 @@
             <p></p>
             <p><strong>Functie:</strong> Medewerker backoffice </p>
             <p><strong>Email:</strong> gertjan.debusschere@gmail.com</p>
-            <p><br>
+            <p>
+                <p><strong>Adres:</strong> Kortrijkstraat 91 - 8930 MENEN</p>
             <strong>Telefoon:</strong> +32 485 59 99 45</p>
             <h3>Vaardigheden</h3>
             <ul>
@@ -150,131 +182,190 @@
             <br>
             <div class="cv-card cv-section">
                 <h3>Werkervaring</h3>
-                <div class="cv-job">
-                    <div class="cv-job-title">Epic Owner</div>
-                    <div class="cv-job-company">Rijksinstituut voor de Sociale Verzerkingen der Zelfstandigen</div>
-                    <div class="cv-job-period">2024 - heden</div>
-                    <ul>
-                        <li>Belangrijkste liason naar de business en coördinator voor het ontwikkelingstraject voor de applicatie van de dienst Publieke Mandaten.</li>
-                        <li>Ondanks zeer moeilijk traject - diverse wijziging in architectuurkeuze en het vertrek van de business analist - zal het project op de voorziene datum in productie gaan met een minimum aan ongemak voor de eindgebruiker.</li>
-                    </ul>
+                <!-- Start werkgever: Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen -->
+                <div class="cv-employer-group">
+                    <div class="cv-employer-header" onclick="toggleJobs(this)">
+                        Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen
+                        <span class="cv-toggle-arrow">▼</span>
+                    </div>
+                    <div class="cv-employer-jobs">
+                        <div class="cv-job">
+                            <div class="cv-job-title">Epic Owner</div>
+                            <div class="cv-job-period">2024 - heden</div>
+                            <ul>
+                                <li>Belangrijkste liason naar de business en coördinator voor het ontwikkelingstraject voor de applicatie van de dienst Publieke Mandaten.</li>
+                                <li>Ondanks zeer moeilijk traject - diverse wijziging in architectuurkeuze en het vertrek van de business analist - zal het project op de voorziene datum in productie gaan met een minimum aan ongemak voor de eindgebruiker.</li>
+                            </ul>
+                        </div>
+                        <div class="cv-job">
+                            <div class="cv-job-title">Coördinator secretariaat CTX</div>
+                            <div class="cv-job-period">2019 - heden</div>
+                            <ul>
+                                <li>Zorgen voor de dispatching en initiële verwerking van poststukken voor de cel Gerrechtelijke Geschillen van de directie Verplichtingen.Dit gaat van het klasseren van documenten in het dossier over het opmaken van betalingsopdrachten tot het samenvatten van rechtspraak met toevoeging van een eerste analyse en suggestie voor verder actie.</li>
+                                <li>Werkte een volledig opvolgingssysteem uit voor de geautomatiseerde herninneringsmails in Microsoft Lists en idem kwartaalstatistieken met PowerBI.</li>
+                            </ul>
+                        </div>
+                        <div class="cv-job">
+                            <div class="cv-job-title">Medewerker backoffice Publieke Mandaten</div>
+                            <div class="cv-job-period">2017 - heden</div>
+                            <ul>
+                                <li>"Mister PMP".</li>
+                                <li>SPOC voor technische problemen, verzoeken voor statistische rapporten binnen het domein, opleidingen, ingewikkelde juridische knopen die moeten worden ontward.</li>
+                            </ul>
+                        </div>
+                        <div class="cv-job">
+                            <div class="cv-job-title">Senior Business Consultant RPA</div>
+                            <div class="cv-job-period">2024</div>
+                            <ul>
+                                <li>Adviseren van externe IT consultants voor het uitwerken van de RPA instructies.</li>
+                                <li>Opvolgen en behandelen van feedback vanuit de frontoffice.</li>
+                            </ul>
+                        </div>
+                        <div class="cv-job">
+                            <div class="cv-job-title">Medewerker backoffice Verzekeringsplicht</div>
+                            <div class="cv-job-period">2017 - 2024</div>
+                            <ul>
+                                <li>Diepgaandere analyse van complexe dossiers op de gebieden van verzekeringsplicht, bijdrageberekening, publieke mandaten en bijdragecategorieën in samenspraak met de studiedienst.</li>
+                                <li>Documenteren van bijzondere gevallen en het opmaken van instructues voor de frontoffice.</li>
+                            </ul>
+                        </div>
+                        <div class="cv-job">
+                            <div class="cv-job-title">Medewerker frontoffice Nationale Hulpkas der Zelfstandigen</div>
+                            <div class="cv-job-period">2016 - 2017</div>
+                            <ul>
+                                <li>Opvolging van de inningen van de sociale bijdragen van buitenlandse zelfstandigen die ambtshalve werden aangesloten bij de Nationale Hulpkas.</li>
+                                <li>Ondersteuning bij het digitaliseren van de dossiers.</li>
+                            </ul>
+                        </div>
+                        <div class="cv-job">
+                            <div class="cv-job-title">Medewerker frontoffice dienst Verzekeringsplicht - Gewestelijk Kantoor Oost-Vlaanderen</div>
+                            <div class="cv-job-period">december 2010 - 2016</div>
+                            <ul>
+                                <li>Opvolgen onderzoeken verzekeringsplicht binnen de sociale zekerheid als zelfstandigen.</li>
+                                <li>Informatie en advies verschaffen aan (toekomstige) zelfstandigen en hun dienstverleners.</li>
+                            </ul>
+                        </div>
+                        <div class="cv-job">
+                            <div class="cv-job-title">Medewerker frontoffice Nationale Hulpkas der Zelfstandigen</div>
+                            <div class="cv-job-period">september 2009 - september 2010</div>
+                            <ul>
+                                <li>Opvolgen van de inning van de sociale bijdrage van de aangesloten zelfstandigen.</li>
+                                <li>Verschaffen van informatie en advies aan de zelfstandigen en hun dienstverleners.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="cv-job">
-                    <div class="cv-job-title">Coördinator secretariaat CTX</div>
-                    <div class="cv-job-company">Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen</div>
-                    <div class="cv-job-period">2019 - heden</div>
-                    <ul>
-                        <li>Zorgen voor de dispatching en initiële verwerking van poststukken voor de cel Gerrechtelijke Geschillen van de directie Verplichtingen.Dit gaat van het klasseren van documenten in het dossier over het opmaken van betalingsopdrachten tot het samenvatten van rechtspraak met toevoeging van een eerste analyse en suggestie voor verder actie.</li>
-                        <li>Werkte een volledig opvolgingssysteem uit voor de geautomatiseerde herninneringsmails in Microsoft Lists en idem kwartaalstatistieken met PowerBI.</li>
-                    </ul>
+                <!-- Start werkgever: Opleidingsinstituut voor de Federale Overheid -->
+                <div class="cv-employer-group">
+                    <div class="cv-employer-header" onclick="toggleJobs(this)">
+                        Opleidingsinstituut voor de Federale Overheid
+                        <span class="cv-toggle-arrow">▼</span>
+                    </div>
+                    <div class="cv-employer-jobs">
+                        <div class="cv-job">
+                            <div class="cv-job-title">Docent "De bestuursovereenkomst"</div>
+                            <div class="cv-job-period">2011-2012</div>   
+                            <ul>
+                                <li>Opmaken van de syllabus sociale zekerheid voor nieuw aangeworven ambtenaren.</li>
+                                <li>Doceren van de uitgewerkte materie.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="cv-job">
-                    <div class="cv-job-title">Medewerker backoffice Publieke Mandaten</div>
-                    <div class="cv-job-company">Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen</div>
-                    <div class="cv-job-period">2017 - heden</div>
-                    <ul>
-                        <li>"Mister PMP".</li>
-                        <li>SPOC voor technische problemen, verzoeken voor statistische rapporten binnen het domein, opleidingen, ingewikkelde juridische knopen die moeten worden ontward.</li>
-                    </ul>
-            </div>
-            <div class="cv-job">
-                <div class="cv-job-title">Senior Business Consultant RPA</div>
-                <div class="cv-job-company">Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen</div>
-                <div class="cv-job-period">2024</div>
-                <ul>
-                    <li>Adviseren van externe IT consultants voor het uitwerken van de RPA instructies.</li>
-                    <li>Opvolgen en behandelen van feedback vanuit de frontoffice.</li>
-                </ul>
+                <!-- Start werkgever: Rijksdienst voor Sociale Zekerheid - Provinciale en Plaatselijke Overheden -->
+                <div class="cv-employer-group">
+                    <div class="cv-employer-header" onclick="toggleJobs(this)">
+                        Rijksdienst voor Sociale Zekerheid - Provinciale en Plaatselijke Overheden
+                        <span class="cv-toggle-arrow">▼</span>
+                    </div>
+                    <div class="cv-employer-jobs">
+                        <div class="cv-job">
+                            <div class="cv-job-title">Medewerker kinderbijslag - Groep West-Vlaanderen</div>
+                            <div class="cv-job-period">oktober 2010 - december 2010</div>
+                            <ul>
+                                <li>Opvolgen kinderbijslagdossiers voor werknemers van lokale en provinciale overheden.</li>
+                                <li>Verschaffen van informatie aan de aangesloten werknemers.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            <div class="cv-job">
-                <div class="cv-job-title">Medewerker backoffice Verzekeringsplicht</div>
-                <div class="cv-job-company">Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen</div>
-                <div class="cv-job-period">2017 - 2024</div>
-                <ul>
-                    <li>Diepgaandere analyse van complexe dossiers op de gebieden van verzekeringsplicht, bijdrageberekening, publieke mandaten en bijdragecategorieën in samenspraak met de studiedienst.</li>
-                    <li>Documenteren van bijzondere gevallen en het opmaken van instructues voor de frontoffice.</li>
-                </ul>
-            </div>
-            <div class="cv-job">
-                <div class="cv-job-title">Medewerker frontoffice Nationale Hulpkas der Zelfstandigen</div>
-                <div class="cv-job-company">Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen</div>
-                <div class="cv-job-period">2016 - 2017</div>
-                <ul>
-                    <li>Opvolging van de inningen van de sociale bijdragen van buitenlandse zelfstandigen die ambtshalve werden aangesloten bij de Nationale Hulpkas.</li>
-                    <li>Ondersteuning bij het digitaliseren van de dossiers.</li>
-                </ul>
+                <!-- Start werkgever: Hulpverleningszone Fluvia -->
+                <div class="cv-employer-group">
+                    <div class="cv-employer-header" onclick="toggleJobs(this)">
+                        Hulpverleningszone Fluvia
+                        <span class="cv-toggle-arrow">▼</span>
+                    </div>
+                    <div class="cv-employer-jobs">
+                        <div class="cv-job">
+                            <div class="cv-job-title">Beroepskorporaal - dienst Dispatching</div>
+                            <div class="cv-job-period">juli 2010 - februari 2011</div>
+                            <ul>
+                                <li>Voorbereiden gemeenschappelijk draaiboek dispatching voor de gehele HVZ.</li>
+                                <li>Opmaken interventieplannen voor grote bedrijfssites na plaatsbezoek met officier.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="cv-job">
-                <div class="cv-job-title">Docent "De bestuursovereenkomst"</div>
-                <div class="cv-job-company">Opleidingsinstituut voor de Federale Overheid</div>
-                <div class="cv-job-period">2011-2012</div>   
-                <ul>
-                    <li>Opmaken van de syllabus sociale zekerheid voor nieuw aangeworven ambtenaren.</li>
-                    <li>Doceren van de uitgewerkte materie.</li>
-                </ul>
-            </div>
-            <div class="cv-job">
-                <div class="cv-job-title">Medewerker frontoffice dienst Verzekeringsplicht - Gewestelijk Kantoor Oost-Vlaanderen</div>
-                <div class="cv-job-company">Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen</div>
-                <div class="cv-job-period">december 2010 - 2016</div>
-                <ul>
-                    <li>Opvolgen onderzoeken verzekeringsplicht binnen de sociale zekerheid als zelfstandigen.</li>
-                    <li>Informatie en advies verschaffen aan (toekomstige) zelfstandigen en hun dienstverleners.</li>
-                </ul>
-            </div>
-            <div class="cv-job">
-                <div class="cv-job-title">Medewerker kinderbijslag - Groep West-Vlaanderen</div>
-                <div class="cv-job-company">Rijksdienst voor Sociale Zekerheid - Provinciale en Plaatselijke Overheden</div>
-                <div class="cv-job-period">oktober 2010 - december 2010</div>
-                <ul>
-                    <li>Opvolgen kinderbijslagdossiers voor werknemers van lokale en provinciale overheden.</li>
-                    <li>Verschaffen van informatie aan de aangesloten werknemers.</li>
-                </ul>
-            </div>
-            <div class="cv-job">
-                <div class="cv-job-title">Beroepskorporaal - dienst Dispatching</div>
-                <div class="cv-job-company">Hulpverleningszone Fluvia</div>
-                <div class="cv-job-period">juli 2010 - februari 2011</div>
-                <ul>
-                    <li>Voorbereiden gemeenschappelijk draaiboek dispatching voor de gehele HVZ.</li>
-                    <li>Opmaken interventieplannen voor grote bedrijfssites na plaatsbezoek met officier.</li>
-                </ul>
-            </div>
-            <div class="cv-job">
-                <div class="cv-job-title">Medewerker frontoffice Nationale Hulpkas der Zelfstandigen</div>
-                <div class="cv-job-company">Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen</div>
-                <div class="cv-job-period">september 2009 - september 2010</div>
-                <ul>
-                    <li>Opvolgen van de inning van de sociale bijdrage van de aangesloten zelfstandigen.</li>
-                    <li>Verschaffen van informatie en advies aan de zelfstandigen en hun dienstverleners.</li>
-                </ul>
-            </div>
-            <div class="cv-job">
-                <div class="cv-job-title">Woonbegeleider</div>
-                <div class="cv-job-company">diverse werkgevers in een tijdelijk contract</div>
-                <div class="cv-job-period">juli 2009 - augustus 2010</div>
-                <ul>
-                    <li>Begeleiden volwassenen met een verstandelijke en/of fysieke beperking in een residentiële setting.</li>
-                                   </ul>
+                <!-- Start werkgever: diverse werkgevers in een tijdelijk contract -->
+                <div class="cv-employer-group">
+                    <div class="cv-employer-header" onclick="toggleJobs(this)">
+                        diverse werkgevers in een tijdelijk contract
+                        <span class="cv-toggle-arrow">▼</span>
+                    </div>
+                    <div class="cv-employer-jobs">
+                        <div class="cv-job">
+                            <div class="cv-job-title">Woonbegeleider</div>
+                            <div class="cv-job-period">juli 2009 - augustus 2010</div>
+                            <ul>
+                                <li>Begeleiden volwassenen met een verstandelijke en/of fysieke beperking in een residentiële setting.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
             <br>
             <div class="cv-card cv-section">
                 <h3>Opleiding</h3>
                 <div class="cv-education">
-                    <div class="cv-education-title">BSc Informatica</div>
-                    <div class="cv-education-school">Technische Universiteit Delft</div>
-                    <div class="cv-job-period">2014 - 2018</div>
+                    <div class="cv-education-title">Bachelor Orthopedagogiek</div>
+                    <div class="cv-education-school">KATHO - IPSOC</div>
+                    <div class="cv-job-period">2005 - 2008</div>
                 </div>
-            </div>
+             <br>
+                <div class="cv-education">
+                    <div class="cv-education-title">Economie -Wiskunde</div>
+                    <div class="cv-education-school">Sint-Alloysiuscollege Menen</div>
+                    <div class="cv-job-period">1999 - 2004</div>
+                </div>
+                </div>
+                <br>
             <div class="cv-card cv-section">
                 <h3>Certificaten</h3>
                 <ul>
-                    <li>Brandweerman, brandweerkorporaal, onderofficier.                   
-                    </li>
                     <li>Microsoft Certified: Azure Developer Associate</li>
                 </ul>
             </div>
+
         </main>
     </div>
+    <script>
+function toggleJobs(header) {
+    const jobs = header.nextElementSibling;
+    const arrow = header.querySelector('.cv-toggle-arrow');
+    if (jobs.style.display === 'none') {
+        jobs.style.display = '';
+        arrow.textContent = '▼';
+    } else {
+        jobs.style.display = 'none';
+        arrow.textContent = '►';
+    }
+}
+// Standaard alles open, maar je kan hieronder alles dichtzetten als je wilt:
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.cv-employer-jobs').forEach(function(jobs) {
+        jobs.style.display = '';
+    });
+});
+</script>
 </body>
 </html>
