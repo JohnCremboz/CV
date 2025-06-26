@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+    <personal_info>
+        <name>Gertjan Debusschere</name>
+        <position>Medewerker backoffice</position>
+        <email>gertjan.debusschere@gmail.com</email>
+        <address>Kortrijkstraat 91 - 8930 MENEN</address>
+        <phone>+32 485 59 99 45</phone>
+    </personal_info>
+    
+    <profile>
+        <description>Enthousiaste en resultaatgerichte admistratieve duizendpoot die van zeer veel markten thuis is. Van juridische analyse tot functionele analyse. Van wegcode tot C# code. Van draaitabellen tot rapportering vanuit het datawarehouse. Altijd benieuwd bij te leren, en me om en bij te scholen.</description>
+    </profile>
+    
+    <skills>
+        <skill>Arbeidsrecht, sociaalzekerheidsrecht, fiscaal recht</skill>
+        <skill>Microsoft Office, Microsoft Windows- en Linux System Management, .NET (WPF+Blazor)</skill>
+        <skill>Uitgebreide ervaring met Microsoft Sharepoint en Microsoft Lists</skill>
+        <skill>Oracle Business Intelligence en SQL</skill>
+    </skills>
+    
+    <languages>
+        <language name="Nederlands" level="moedertaal"/>
+        <language name="Engels" level="vloeiend"/>
+        <language name="Frans" level="vloeiend"/>
+        <language name="Duits" level="basis"/>
+        <language name="Spaans" level="noties"/>
+    </languages>
+    
+    <work_experience>
+        <employer name="Rijksinstituut voor de Sociale Verzekeringen der Zelfstandigen">
+            <job>
+                <title>Epic Owner</title>
+                <period>2024 - heden</period>
+                <responsibilities>
+                    <responsibility>Belangrijkste liason naar de business en coördinator voor het ontwikkelingstraject voor de applicatie van de dienst Publieke Mandaten.</responsibility>
+                    <responsibility>Ondanks zeer moeilijk traject - diverse wijziging in architectuurkeuze en het vertrek van de business analist - zal het project op de voorziene datum in productie gaan met een minimum aan ongemak voor de eindgebruiker.</responsibility>
+                </responsibilities>
+            </job>
+            <job>
+                <title>Coördinator secretariaat CTX</title>
+                <period>2019 - heden</period>
+                <responsibilities>
+                    <responsibility>Zorgen voor de dispatching en initiële verwerking van poststukken voor de cel Gerrechtelijke Geschillen van de directie Verplichtingen.Dit gaat van het klasseren van documenten in het dossier over het opmaken van betalingsopdrachten tot het samenvatten van rechtspraak met toevoeging van een eerste analyse en suggestie voor verder actie.</responsibility>
+                    <responsibility>Werkte een volledig opvolgingssysteem uit voor de geautomatiseerde herninneringsmails in Microsoft Lists en idem kwartaalstatistieken met PowerBI.</responsibility>
+                </responsibilities>
+            </job>
+            <job>
+                <title>Medewerker backoffice Publieke Mandaten</title>
+                <period>2017 - heden</period>
+                <responsibilities>
+                    <responsibility>"Mister PMP".</responsibility>
+                    <responsibility>SPOC voor technische problemen, verzoeken voor statistische rapporten binnen het domein, opleidingen, ingewikkelde juridische knopen die moeten worden ontward.</responsibility>
+                </responsibilities>
+            </job>
+            <job>
+                <title>Senior Business Consultant RPA</title>
+                <period>2024</period>
+                <responsibilities>
+                    <responsibility>Adviseren van externe IT consultants voor het uitwerken van de RPA instructies.</responsibility>
+                    <responsibility>Opvolgen en behandelen van feedback vanuit de frontoffice.</responsibility>
+                </responsibilities>
+            </job>
+            <job>
+                <title>Medewerker backoffice Verzekeringsplicht</title>
+                <period>2017 - 2024</period>
+                <responsibilities>
+                    <responsibility>Diepgaandere analyse van complexe dossiers op de gebieden van verzekeringsplicht, bijdrageberekening, publieke mandaten en bijdragecategorieën in samenspraak met de studiedienst.</responsibility>
+                    <responsibility>Documenteren van bijzondere gevallen en het opmaken van instructues voor de frontoffice.</responsibility>
+                </responsibilities>
+            </job>
+            <job>
+                <title>Medewerker frontoffice Nationale Hulpkas der Zelfstandigen</title>
+                <period>2016 - 2017</period>
+                <responsibilities>
+                    <responsibility>Opvolging van de inningen van de sociale bijdragen van buitenlandse zelfstandigen die ambtshalve werden aangesloten bij de Nationale Hulpkas.</responsibility>
+                    <responsibility>Ondersteuning bij het digitaliseren van de dossiers.</responsibility>
+                </responsibilities>
+            </job>
+            <job>
+                <title>Medewerker frontoffice dienst Verzekeringsplicht - Gewestelijk Kantoor Oost-Vlaanderen</title>
+                <period>december 2010 - 2016</period>
+                <responsibilities>
+                    <responsibility>Opvolgen onderzoeken verzekeringsplicht binnen de sociale zekerheid als zelfstandigen.</responsibility>
+                    <responsibility>Informatie en advies verschaffen aan (toekomstige) zelfstandigen en hun dienstverleners.</responsibility>
+                </responsibilities>
+            </job>
+            <job>
+                <title>Medewerker frontoffice Nationale Hulpkas der Zelfstandigen</title>
+                <period>september 2009 - september 2010</period>
+                <responsibilities>
+                    <responsibility>Opvolgen van de inning van de sociale bijdrage van de aangesloten zelfstandigen.</responsibility>
+                    <responsibility>Verschaffen van informatie en advies aan de zelfstandigen en hun dienstverleners.</responsibility>
+                </responsibilities>
+            </job>
+        </employer>
+        
+        <employer name="Opleidingsinstituut voor de Federale Overheid">
+            <job>
+                <title>Docent "De bestuursovereenkomst"</title>
+                <period>2011-2012</period>
+                <responsibilities>
+                    <responsibility>Opmaken van de syllabus sociale zekerheid voor nieuw aangeworven ambtenaren.</responsibility>
+                    <responsibility>Doceren van de uitgewerkte materie.</responsibility>
+                </responsibilities>
+            </job>
+        </employer>
+        
+        <employer name="Rijksdienst voor Sociale Zekerheid - Provinciale en Plaatselijke Overheden">
+            <job>
+                <title>Medewerker kinderbijslag - Groep West-Vlaanderen</title>
+                <period>oktober 2010 - december 2010</period>
+                <responsibilities>
+                    <responsibility>Opvolgen kinderbijslagdossiers voor werknemers van lokale en provinciale overheden.</responsibility>
+                    <responsibility>Verschaffen van informatie aan de aangesloten werknemers.</responsibility>
+                </responsibilities>
+            </job>
+        </employer>
+        
+        <employer name="Hulpverleningszone Fluvia">
+            <job>
+                <title>Beroepskorporaal - dienst Dispatching</title>
+                <period>juli 2010 - februari 2011</period>
+                <responsibilities>
+                    <responsibility>Voorbereiden gemeenschappelijk draaiboek dispatching voor de gehele HVZ.</responsibility>
+                    <responsibility>Opmaken interventieplannen voor grote bedrijfssites na plaatsbezoek met officier.</responsibility>
+                </responsibilities>
+            </job>
+        </employer>
+        
+        <employer name="diverse werkgevers in een tijdelijk contract">
+            <job>
+                <title>Woonbegeleider</title>
+                <period>juli 2009 - augustus 2010</period>
+                <responsibilities>
+                    <responsibility>Begeleiden volwassenen met een verstandelijke en/of fysieke beperking in een residentiële setting.</responsibility>
+                </responsibilities>
+            </job>
+        </employer>
+    </work_experience>
+    
+    <education>
+        <degree>
+            <title>Bachelor Orthopedagogiek</title>
+            <school>KATHO - IPSOC</school>
+            <period>2005 - 2008</period>
+        </degree>
+        <degree>
+            <title>Economie -Wiskunde</title>
+            <school>Sint-Alloysiuscollege Menen</school>
+            <period>1999 - 2004</period>
+        </degree>
+    </education>
+    
+    <certifications>
+        <certification>Microsoft Certified: Azure Developer Associate</certification>
+    </certifications>
+</cv>
